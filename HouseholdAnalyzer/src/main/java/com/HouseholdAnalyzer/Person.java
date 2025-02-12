@@ -24,10 +24,11 @@ public class Person {
 
     // Normalize address for comparison
     public String getNormalizedAddress() {
-        return address.toLowerCase()
+        StringBuilder sb = new StringBuilder();
+        return sb.append(address.toLowerCase()
                 .replaceAll("\\s+", " ")
                 .replaceAll("\\.$", "")
-                .trim();
+                .trim()).append(city.toLowerCase()).append(state.toLowerCase()).toString();
     }
 
     public String getFullAddress() {
