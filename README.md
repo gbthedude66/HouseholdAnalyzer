@@ -4,7 +4,8 @@
 Any `OpenJDK 18` distribution as that's what it's been tested on. The latest version of `Maven` if you plan on fiddling with the source code and building the jar.
 
 ### Assumptions
-If the address contains an apartment there can either be a " " or a "," seperator between the street address and the apartment. The street address can end with or without a ".". Case doesn't matter. Essentially comparing the normalized addresses.
+I treated the street addresses as normalized addresses, so characters like "." "," " ", "  ", don't change the actual address. Essentially comparing the normalized street addresses.
+I assumed that if the street address was the same but the city or state were different that the addresses are different. Case also doesn't matter for any part of the address.
 I also assumed that it would make most sense to ingest the input from a file so that you don't need to rebuild the jar everytime you make an adjustment.
 
 ### How to run?
