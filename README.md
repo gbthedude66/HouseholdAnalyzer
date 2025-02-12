@@ -19,7 +19,7 @@ After making any changes run the below to create a new jar:
 ```
 mvn clean package
 ```
-The input file is included in the resources directory.
+The input file is included in the ```src/main/resources``` directory.
 
 ### Suggestions/Improvements?
 Please open a pull request if you have any suggestions/improvements.
