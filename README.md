@@ -14,7 +14,6 @@ After making any changes run the below to create a new jar:
 ```
 mvn clean package
 ```
-All changes to the directory structure will be handled in the `HouseholdAnalyzer` class. 
 
 ### Suggestions/Improvements?
 Please open a pull request if you have any suggestions/improvements.
