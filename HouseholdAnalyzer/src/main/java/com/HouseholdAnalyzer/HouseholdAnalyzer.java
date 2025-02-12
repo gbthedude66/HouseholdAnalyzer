@@ -1,3 +1,5 @@
+package com.HouseholdAnalyzer;
+
 import java.io.*;
 import java.util.*;
 
