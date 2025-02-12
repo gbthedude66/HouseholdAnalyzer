@@ -1,4 +1,4 @@
-# Expeditors Challege
+# Expeditors Challenge
 
 ### Requirements:
 Any `OpenJDK 18` distribution as that's what it's been tested on. The latest version of `Maven` if you plan on fiddling with the source code and building the jar.
